@@ -15,7 +15,7 @@ function main(curTime) {
 
   if (gameOver) {
     if (confirm("You lost. Start again?")) {
-      window.location = '/'
+      window.location = '/single-player-snake/'
     }
 
     return
